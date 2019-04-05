@@ -1,0 +1,71 @@
+#canvas{ 
+	display:block;
+    margin:0 auto;
+}
+
+#controls{
+	width:600px;
+    margin:0 auto;
+}
+
+#controls ul{
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+
+#controls>ul li{
+	display: flex;
+	align-items: center;
+}
+
+.btn-clear{
+	padding: 0 28px;
+    color: #fff;
+    background: #45512c;
+	border-radius: 24px;
+	cursor: pointer;
+}
+.btn-clear:hover{
+    background: #59663e;
+}
+li.cl{
+	margin-right: 16px;
+}
+
+#controls>ul li ul li{
+	padding: 1px 6px;
+	border-right: 1px solid #fff;
+	cursor: pointer;
+}
+.font-size, .font-color{
+	border: 1px solid #f1f0f6;
+}
+.font-size li{
+	background: #f1f0f6;
+}
+.size-active,.color-active{
+	background: #fff !important;
+	color: orange !important;
+}
+.font-color li{
+	color: #f1f0f6;
+}
+.font-color li:nth-of-type(1){
+	background: black;
+}
+.font-color li:nth-of-type(2){
+	background: red;
+}
+.font-color li:nth-of-type(3){
+	background: orange;
+}
+.font-color li:nth-of-type(4){
+	background: yellow;
+}
+.font-color li:nth-of-type(5){
+	background: green;
+}
+.font-color li:nth-of-type(6){
+	background: blue;
+}

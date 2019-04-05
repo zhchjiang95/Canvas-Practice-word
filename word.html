@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Canvas</title>
+    <link href="./src/css/word.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <canvas id="canvas" height="600" width="600">
+      此浏览器不支持 canvas
+    </canvas>
+    <div id="controls">
+      <ul>
+        <li class="cl">
+          笔画大小：
+          <ul class="font-size">
+            <li key="4">4</li>
+            <li key="10">10</li>
+            <li key="16" class="size-active">16</li>
+            <li key="20">20</li>
+          </ul>
+        </li>
+        <li class="cl">笔画颜色：
+          <ul class="font-color">
+            <li class="color-active" key="black">黑</li>
+            <li key="red">红</li>
+            <li key="orange">橙</li>
+            <li key="yellow">黄</li>
+            <li key="green">绿</li>
+            <li key="blue">蓝</li>
+          </ul>
+        </li>
+        <li class="btn-clear cl">清空</li>
+      </ul>
+    </div>
+
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/word.js"></script>
+  </body>
+</html>
