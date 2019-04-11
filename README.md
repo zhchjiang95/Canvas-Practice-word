@@ -16,4 +16,4 @@
   <li>绿</li>
   <li>蓝</li>
 </ul>
-<img src="http://www.603030.com/GraphBed/canvas.png">
+<img width=400 src="http://www.603030.com/GraphBed/canvas.png">
